@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Number Calculator</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+
+<div class="container">
+	<h1>Number Calculator</h1>
+	<div class="row">
+		<div class="col-sm-4">
+			<div class="form-group">
+				<label for="num1">Number 1:</label>
+				<input type="number" class="form-control" id="num1" placeholder="Enter number 1">
+			</div>
+		</div>
+		<div class="col-sm-4">
+			<div class="form-group">
+				<label for="num2">Number 2:</label>
+				<input type="number" class="form-control" id="num2" placeholder="Enter number 2">
+			</div>
+		</div>
+		<div class="col-sm-4">
+			<div class="form-group">
+				<label for="num3">Number 3:</label>
+				<input type="number" class="form-control" id="num3" placeholder="Enter number 3">
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-12">
+			<button class="btn btn-primary" onclick="calculate()">Calculate</button>
+		</div>
+	</div>
+	<div class="row" id="result" style="display:none;">
+		<div class="col-sm-12">
+			<h2>Result:</h2>
+			<p><strong>Maximum:</strong> <span id="max"></span></p>
+			<p><strong>Minimum:</strong> <span id="min"></span></p>
+			<p><strong>Average:</strong> <span id="avg"></span></p>
+			<p><strong>Median:</strong> <span id="med"></span></p>
+			<p><strong>Range:</strong> <span id="range"></span></p>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>

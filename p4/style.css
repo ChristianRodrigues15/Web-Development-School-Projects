@@ -1,0 +1,28 @@
+
+#tictactoe table {
+    margin: 0 auto; 
+    width: 40%; 
+    height: 50vh; 
+    margin-top: 10%;
+    margin-bottom: 20px;
+}
+  
+  #tictactoe td {
+    font-size: 4em; 
+    text-align: center; 
+    vertical-align: middle; 
+    border: 3px solid black; 
+    background-color: rgb(120, 185, 205);
+}
+  
+button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-size: 1.5em;
+    padding: 10px 20px;
+    border: 2px solid black;
+    background-color: rgb(65, 64, 64);
+    color: white !important;
+}
+

@@ -1,0 +1,57 @@
+body {
+    background-color: rgb(65, 64, 64);
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: rgb(120, 185, 205);
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+label {
+    font-weight: bold;
+}
+
+.form-control {
+    background-color: rgb(120, 185, 205);
+    color: black;
+    border-color: rgb(120, 185, 205);
+    font-size: 20px;
+    height: 50px;
+}
+
+.btn-primary {
+    background-color: rgb(120, 185, 205);
+    border-color: rgb(120, 185, 205);
+    font-size: 20px;
+    padding: 10px 20px;
+}
+
+.btn-primary:hover {
+    background-color: rgb(65, 64, 64);
+    border-color: rgb(65, 64, 64);
+}
+
+#result {
+    margin-top: 60px;
+    border: 2px solid rgb(120, 185, 205);
+    padding: 30px;
+    display:none;
+}
+
+#result p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+#result strong {
+    margin-right: 20px;
+}
